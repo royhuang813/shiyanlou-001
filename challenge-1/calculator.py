@@ -19,6 +19,6 @@ if 3500 < b <= 55000:
     print(format(b * 0.3 - 2755 , ".2f"))
 if 55000 < b <= 80000:
     print(format(b * 0.35 - 5505 , ".2f"))
-else:
+if b > 80000:
     print(format(b * 0.45 - 13505 , ".2f"))
 
